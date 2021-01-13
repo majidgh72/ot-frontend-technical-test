@@ -1,0 +1,20 @@
+@import '../../assets/scss/modules/vars';
+
+.table-wrapper {
+    margin-top: 100px;
+
+    table {
+        width: 100%;
+        border: $table-border;
+
+        td, th {
+            border: $table-border;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            cursor: pointer;
+        }
+    }
+}
